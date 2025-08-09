@@ -1,0 +1,22 @@
+credit-risk-scoring/
+├── credit_risk/   
+    ├── __init__.py       
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model.py
+│   ├── evaluate.py
+│   └── config.py
+├── notebooks/                  
+│   └── exploration.ipynb
+├── config.yaml          
+├── setup.py
+├── scripts/
+│   └── train_model.py
+├── test/
+│   └── test_model.py
+├── data/
+├── models/
+├── requirements.txt
+├── README.md
+├── .gitignore
