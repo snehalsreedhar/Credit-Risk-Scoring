@@ -3,3 +3,4 @@ data/loan.csv
 
 *.pyc
 __pycache__
+build/
