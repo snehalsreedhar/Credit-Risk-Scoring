@@ -1,17 +1,10 @@
 from setuptools import setup, find_packages
 
-def get_requirments(file_path: str) -> list[str]:
-  
-    """ This function will return the list of requirements
-    """  
-    HYPHEN_E_DOT = "-e ."
-    requirements = []
-    with open(file_path) as file_obj: 
+def get_requirements(file_path: str) -> list[str]:
+    """Return a list of package requirements, excluding editable installs like '-e .'."""
+    with open(file_path) as file_obj:
         requirements = file_obj.readlines()
-        requirements = [req.replace("\n", "") for req in requirements]
-    
-    if HYPHEN_E_DOT in requirements: 
-        requirements.remove(HYPHEN_E_DOT)
+        requirements = [req.strip() for req in requirements if req.strip() and not req.strip().startswith("-e")]
     return requirements
 
 setup(
@@ -21,6 +14,5 @@ setup(
     author_email="snehal.sreedhar@alumni.ashoka.edu.in",
     description="A package for credit risk scoring using machine learning techniques.",
     packages=find_packages(),
-    install_requires = get_requirments("requirements.txt")
-
-)
+    install_requires = get_requirements(r"C:\Projects\credit_risk_scoring\requirements.txt")
+) 

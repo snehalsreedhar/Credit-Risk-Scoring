@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: credit_risk_scoring
+Version: 0.1.0
+Summary: A package for credit risk scoring using machine learning techniques.
+Author: Snehal Sreedhar
+Author-email: snehal.sreedhar@alumni.ashoka.edu.in
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
+Requires-Dist: catboost
+Requires-Dist: jupyter
+Requires-Dist: flask
+Requires-Dist: gunicorn
+Requires-Dist: requests
+Requires-Dist: pytest
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,22 +1,21 @@
 credit-risk-scoring/
-├── credit_risk/   
+├── data_prep/   
     ├── __init__.py       
 │   ├── data_loader.py
 │   ├── preprocessing.py
 │   ├── feature_engineering.py
-│   ├── model.py
-│   ├── evaluate.py
-│   └── config.py
+│   ├── model_split.py
 ├── notebooks/                  
 │   └── exploration.ipynb
 ├── config.yaml          
 ├── setup.py
-├── scripts/
-│   └── train_model.py
-├── test/
+├── model_train/
+│   └── regression.py
+        xgboost.py
+├── model_test/
 │   └── test_model.py
 ├── data/
-├── models/
+    loan.csv
 ├── requirements.txt
 ├── README.md                              
 ├── .gitignore
