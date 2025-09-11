@@ -1,1 +1,3 @@
-componenets
+data_prep
+model_test
+model_train
