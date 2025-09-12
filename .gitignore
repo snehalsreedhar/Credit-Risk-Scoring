@@ -1,6 +1,5 @@
 .venv/
 data/loan.csv
-
 *.pyc
-__pycache__
+__pycache__/
 build/
