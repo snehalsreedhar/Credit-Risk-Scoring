@@ -3,7 +3,6 @@ credit-risk-scoring/
     ├── __init__.py       
 │   ├── data_loader.py
 │   ├── preprocessing.py
-│   ├── feature_engineering.py
 │   ├── model_split.py
 ├── notebooks/                  
 │   └── exploration.ipynb

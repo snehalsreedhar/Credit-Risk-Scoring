@@ -1,4 +1,4 @@
-from credit_risk_scoring.data_prep import data_loader
+from . import data_loader
 import pandas as pd
 import numpy as np
 
